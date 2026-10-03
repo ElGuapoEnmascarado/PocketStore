@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="theme-color" content="#6d28d9" />
+  <meta name="description" content="PocketStore - Catálogo offline con Vanilla JavaScript" />
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>PocketStore</title>
+</head>
+
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PWA · Vanilla JS</p>
+      <h1>PocketStore</h1>
+    </div>
+
+    <div id="connectionStatus" class="status" aria-live="polite">
+      Verificando conexión...
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Tu catálogo, incluso sin internet.</h2>
+        <p>
+          Los productos se consultan desde una API pública y se conservan
+          para poder visualizarse cuando no haya conexión.
+        </p>
+      </div>
+
+      <button id="reloadButton" class="primary-button" type="button">
+        Actualizar catálogo
+      </button>
+    </section>
+
+    <section aria-labelledby="catalogTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Catálogo</p>
+          <h2 id="catalogTitle">Productos disponibles</h2>
+        </div>
+
+        <span id="productCount" class="counter">0 productos</span>
+      </div>
+
+      <div id="message" class="message" aria-live="polite">
+        Cargando productos...
+      </div>
+
+      <div id="productList" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>PocketStore · Aplicación web progresiva offline</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

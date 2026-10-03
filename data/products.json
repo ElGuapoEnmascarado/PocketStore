@@ -1,0 +1,44 @@
+[
+  {
+    "id": 101,
+    "title": "Audífonos PocketBeat",
+    "price": 699.0,
+    "description": "Audífonos inalámbricos compactos con estuche de carga.",
+    "category": "Electrónica"
+  },
+  {
+    "id": 102,
+    "title": "Mochila Urban Pack",
+    "price": 549.0,
+    "description": "Mochila ligera con compartimento para laptop y accesorios.",
+    "category": "Accesorios"
+  },
+  {
+    "id": 103,
+    "title": "Sudadera PocketStore",
+    "price": 499.0,
+    "description": "Sudadera casual unisex de uso diario.",
+    "category": "Ropa"
+  },
+  {
+    "id": 104,
+    "title": "Teclado Mini",
+    "price": 899.0,
+    "description": "Teclado compacto para estudio, trabajo o programación.",
+    "category": "Electrónica"
+  },
+  {
+    "id": 105,
+    "title": "Lámpara Desk Light",
+    "price": 429.0,
+    "description": "Lámpara LED para escritorio con diseño minimalista.",
+    "category": "Hogar"
+  },
+  {
+    "id": 106,
+    "title": "Botella Pocket 750 ml",
+    "price": 259.0,
+    "description": "Botella reutilizable ideal para escuela, oficina o gimnasio.",
+    "category": "Accesorios"
+  }
+]
